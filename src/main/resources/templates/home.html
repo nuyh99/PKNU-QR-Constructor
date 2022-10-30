@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" lang="kr">
+<head>
+    <title>PKNU Library</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+
+<h1>QR CODE</h1>
+<form th:action="@{qr}" method="get">
+    <input type="text" name="studentId">
+    <button type="submit">create</button>
+</form>
+
+</body>
+</html>
